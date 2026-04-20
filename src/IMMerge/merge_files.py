@@ -7,8 +7,10 @@ import os
 # import process_args
 # from .process_args import process_args
 # from .get_SNP_list import get_snp_list
-# from .check_r2_setting_for_imputation import check_imputatilson_parameters
+# from .check_r2_setting_for_imputation import check_imputation_parameters
 import time
+
+__version__ = "0.0.5"
 
 if __name__ == "__main__":
     from process_args import process_args
@@ -20,9 +22,9 @@ else: # import this way when used as a module. '.' indicates to import from the 
 # ################################ Helper functions ################################
 # Print progress par in console
 # - progress: current progress (number of SNPs processed)
-def progress_bar(progres):
+def progress_bar(progress):
     total = number_snps_kept # total number of SNPs needs to be processed
-    percent = 100 * (progres/total)
+    percent = 100 * (progress/total)
     bar = '=' * int(percent) + '-' * int(100 - percent)
     print(f'|{bar}| {percent:.2f}%', end='\r')
 
@@ -333,7 +335,7 @@ def run_merge_files(args):
     start_time = time.time()  # Track execution time
 
     global VERSION  # Global variable Version of IMMerge
-    VERSION = '0.0.4'
+    VERSION = __version__
     global LOG_TXT
     LOG_TXT = ''  # Global variable to track info printed. Write to log file when run is finished
 
