@@ -6,6 +6,13 @@ and the format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ## [0.0.5] - 2026-04-20
 
+### Changed
+- Slim README to a landing-page format (install, quickstart, output
+  files, docs pointer, citation, license). Full CLI reference,
+  input-file format, and Python module API moved to `docs/usage.md`.
+  Combined R² / MAF / AF derivations moved to `docs/algorithm.md`.
+  New `docs/README.md` indexes the manual.
+
 ### Added
 - `pyproject.toml` for PEP 517/621 packaging — installable with `pip install .`.
 - `requirements.txt` for environments that need a flat dependency list.
