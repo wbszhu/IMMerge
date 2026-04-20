@@ -37,8 +37,9 @@ python src/IMMerge/merge_files.py \
     --missing 1
 ```
 
-Each input VCF needs a matching `*.info.gz` in the same directory.
-Generate them with `make_info.py` if you do not already have them.
+Each input VCF needs a matching `*.info.gz` in the same directory
+(see [input file format](docs/usage.md#input-files)). Generate them
+with `make_info.py` if you do not already have them.
 
 ## Output Files
 
@@ -55,7 +56,7 @@ With `--output <prefix>`, IMMerge writes:
 ## Documentation
 
 See [`docs/`](docs/README.md) for the full user manual — CLI reference,
-input file format, algorithm details, and the Python module API.
+algorithm details, and the Python module API.
 
 ## Citation
 
