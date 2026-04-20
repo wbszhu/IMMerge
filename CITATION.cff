@@ -7,10 +7,9 @@ version: "0.0.5"
 date-released: "2026-04-20"
 license: MIT
 repository-code: "https://github.com/wbszhu/IMMerge"
-# TODO: replace the placeholder below with your actual name before publishing.
 authors:
-  - family-names: "TODO"
-    given-names: "Your name"
+  - family-names: "Zhang"
+    given-names: "Lu"
     affiliation: "Stanford University"
 preferred-citation:
   type: article

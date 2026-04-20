@@ -72,7 +72,7 @@ If you use IMMerge, please cite **both** the original paper and this fork.
 
 **Software** (this fork, for the specific implementation / bug fixes you used):
 
-> <Your Name>. *IMMerge (wbszhu fork)*, version 0.0.5. GitHub, 2026.
+> Zhang L. *IMMerge (wbszhu fork)*, version 0.0.5. GitHub, 2026.
 > https://github.com/wbszhu/IMMerge
 
 ## License
