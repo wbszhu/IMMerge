@@ -55,8 +55,9 @@ With `--output <prefix>`, IMMerge writes:
 
 ## Documentation
 
-See [`docs/`](docs/README.md) for the full user manual —
-[CLI reference](docs/usage.md#merge_filespy--cli-reference),
+See [`docs/`](docs/README.md) for the full user manual — CLI reference
+for [merge_files.py](docs/usage.md#merge_filespy--cli-reference) and
+[make_info.py](docs/usage.md#make_infopy--cli-reference),
 [algorithm details](docs/algorithm.md),
 and [Python module API](docs/usage.md#python-module-api).
 
