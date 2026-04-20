@@ -78,6 +78,30 @@ If you use IMMerge, please cite **both** the original paper and this fork.
 > Zhang L. *IMMerge (wbszhu fork)*, version 0.0.5. GitHub, 2026.
 > https://github.com/wbszhu/IMMerge
 
+## Fork contributors
+
+<table>
+<tr>
+<td align="center">
+  <a href="https://github.com/wbszhu">
+    <img src="https://github.com/wbszhu.png" width="80" alt="Lu Zhang" /><br/>
+    <sub><b>Lu Zhang</b></sub>
+  </a><br/>
+  <sub>maintainer</sub>
+</td>
+<td align="center">
+  <a href="https://github.com/sethsh7">
+    <img src="https://github.com/sethsh7.png" width="80" alt="Seth A. Sharp" /><br/>
+    <sub><b>Seth A. Sharp</b></sub>
+  </a><br/>
+  <sub>SNP sorting fix (#1)</sub>
+</td>
+</tr>
+</table>
+
+For the authors of the original IMMerge (upstream) and the Bioinformatics
+paper, see the [Citation](#citation) section above.
+
 ## License
 
 MIT — see [LICENSE](LICENSE).
