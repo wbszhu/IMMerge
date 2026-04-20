@@ -60,10 +60,20 @@ algorithm details, and the Python module API.
 
 ## Citation
 
-Zhu W, Chen HH, Petty AS, Petty LE, Polikowsky HG, Gamazon ER, Below JE,
-Highland HM. *IMMerge: merging imputation data at scale*. Bioinformatics.
-2023 Jan 1;39(1):btac750. doi: [10.1093/bioinformatics/btac750](https://doi.org/10.1093/bioinformatics/btac750).
-PMID: 36413071; PMCID: PMC9805583.
+If you use IMMerge, please cite **both** the original paper and this fork.
+
+**Paper** (original algorithm and implementation):
+
+> Zhu W, Chen HH, Petty AS, Petty LE, Polikowsky HG, Gamazon ER, Below JE,
+> Highland HM. *IMMerge: merging imputation data at scale*. Bioinformatics.
+> 2023 Jan 1;39(1):btac750.
+> doi: [10.1093/bioinformatics/btac750](https://doi.org/10.1093/bioinformatics/btac750).
+> PMID: 36413071; PMCID: PMC9805583.
+
+**Software** (this fork, for the specific implementation / bug fixes you used):
+
+> <Your Name>. *IMMerge (wbszhu fork)*, version 0.0.5. GitHub, 2026.
+> https://github.com/wbszhu/IMMerge
 
 ## License
 
