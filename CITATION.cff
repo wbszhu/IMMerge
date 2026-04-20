@@ -1,28 +1,16 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite the paper below."
-title: "IMMerge: Merging imputation data at scale"
+message: >-
+  If you use IMMerge, please cite both the software (this fork, via the
+  top-level metadata below) and the original paper (in preferred-citation).
+title: "IMMerge: Merging imputation data at scale (wbszhu fork)"
 version: "0.0.5"
-doi: "10.1093/bioinformatics/btac750"
-date-released: "2023-01-01"
+date-released: "2026-04-20"
 license: MIT
 repository-code: "https://github.com/wbszhu/IMMerge"
 authors:
-  - family-names: "Zhu"
-    given-names: "Wanying"
-  - family-names: "Chen"
-    given-names: "Hung-Hsin"
-  - family-names: "Petty"
-    given-names: "Alexander S."
-  - family-names: "Petty"
-    given-names: "Lauren E."
-  - family-names: "Polikowsky"
-    given-names: "Hannah G."
-  - family-names: "Gamazon"
-    given-names: "Eric R."
-  - family-names: "Below"
-    given-names: "Jennifer E."
-  - family-names: "Highland"
-    given-names: "Heather M."
+  - family-names: "Zhang"
+    given-names: "Lu"
+    affiliation: "Stanford University"
 preferred-citation:
   type: article
   title: "IMMerge: merging imputation data at scale"
