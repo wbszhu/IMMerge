@@ -129,7 +129,7 @@ def get_genotype_status(df, mixed_genotype, genotyped_labels, imputed_labels, nu
     df.drop(columns=lst_genotype_col_names, inplace=True)
 
 
-# This function calculated r2 (use method defined by dict_flags['--r2_output'])， MAF, and altFrq,
+# This function calculated r2 (use method defined by dict_flags['--r2_output']), MAF, and altFrq,
 # assign values to a column (col_name_r2_combined, col_name_maf_combined) in df_merged
 # Parameters:
 # - df_merged: merged dataframe from all .info.gz files
