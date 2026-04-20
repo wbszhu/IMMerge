@@ -1,0 +1,52 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "IMMerge: Merging imputation data at scale"
+version: "0.0.5"
+doi: "10.1093/bioinformatics/btac750"
+date-released: "2023-01-01"
+license: MIT
+repository-code: "https://github.com/wbszhu/IMMerge"
+authors:
+  - family-names: "Zhu"
+    given-names: "Wanying"
+  - family-names: "Chen"
+    given-names: "Hung-Hsin"
+  - family-names: "Petty"
+    given-names: "Alexander S."
+  - family-names: "Petty"
+    given-names: "Lauren E."
+  - family-names: "Polikowsky"
+    given-names: "Hannah G."
+  - family-names: "Gamazon"
+    given-names: "Eric R."
+  - family-names: "Below"
+    given-names: "Jennifer E."
+  - family-names: "Highland"
+    given-names: "Heather M."
+preferred-citation:
+  type: article
+  title: "IMMerge: merging imputation data at scale"
+  journal: "Bioinformatics"
+  volume: 39
+  issue: 1
+  year: 2023
+  month: 1
+  start: "btac750"
+  doi: "10.1093/bioinformatics/btac750"
+  authors:
+    - family-names: "Zhu"
+      given-names: "Wanying"
+    - family-names: "Chen"
+      given-names: "Hung-Hsin"
+    - family-names: "Petty"
+      given-names: "Alexander S."
+    - family-names: "Petty"
+      given-names: "Lauren E."
+    - family-names: "Polikowsky"
+      given-names: "Hannah G."
+    - family-names: "Gamazon"
+      given-names: "Eric R."
+    - family-names: "Below"
+      given-names: "Jennifer E."
+    - family-names: "Highland"
+      given-names: "Heather M."

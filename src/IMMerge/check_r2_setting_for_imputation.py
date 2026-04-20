@@ -9,7 +9,7 @@ import gzip
 # Output:
 # - Print imputation settings of each input file to console
 # - Processed arguments are returned in dict_flags
-def check_imputatilson_parameters(lst_fn):
+def check_imputation_parameters(lst_fn):
     print('\nCheck r2 filter used for imputation:')
     try:
         # Read in file headers of each input file
@@ -27,4 +27,4 @@ def check_imputatilson_parameters(lst_fn):
         print('Error: File not found:', fn, '\n')
         raise IOError('Input file not found')
 
-# check_imputatilson_parameters()
+# check_imputation_parameters()

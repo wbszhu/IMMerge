@@ -90,7 +90,7 @@ def __merge_snps(lst_info_df, cols_to_keep=['SNP', 'REF(0)', 'ALT(1)', 'Genotype
 
 
 # This function determines genotype status of each variant
-# Patameters:
+# Parameters:
 # - df: a DataFrame to be processes (df_merge in this script)
 # - genotyped_label: label(s) for genotyped variants ('TYPED' and 'TYPED_ONLY' in TOPmed)
 # - imputed_label: label(s) for imputed variants ('IMPUTED' in TOPmed)
@@ -106,7 +106,7 @@ def get_genotype_status(df, mixed_genotype, genotyped_labels, imputed_labels, nu
     # Get column names of genotype status of each input file
     lst_genotype_col_names = [f'Genotyped_group{i+1}' for i in range(number_of_input_files)]
     if not mixed_genotype: # Use the first genotype status available
-        df['Genotyped'] = df[lst_genotype_col_names].fillna(method='backfill', axis=1)[lst_genotype_col_names[0]]
+        df['Genotyped'] = df[lst_genotype_col_names].bfill(axis=1)[lst_genotype_col_names[0]]
     else:
         lst_genotyped_label = genotyped_labels.split('/')
         lst_imputed_label = imputed_labels.split('/')
@@ -292,7 +292,7 @@ def __process_output(df_merged, dict_flags, lst_index_col_names):
     float_format = '%.6f'
     if dict_flags['--missing'] == 0:
         # Use %g for precision formatting, will get a mix of scientific notation when number is too small
-        # Or use %.6f, for 6 precision after dot. But if value is stoo small will be round to 0
+        # Or use %.6f, for 6 precision after dot. But if value is too small will be round to 0
         # Save to *.variant_retained.info.txt sorted by position and index in each input file,
         # since there could be multiple variants at the same position
         df_merged[mask_to_keep].sort_values(by=['POS']+lst_index_col_names)\
