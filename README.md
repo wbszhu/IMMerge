@@ -9,15 +9,21 @@ z-transformation and weighted allele frequencies.
 
 ## Installation
 
-```bash
-pip install IMMerge
-```
-
-Or from source:
+Install the latest commit on `main` from this fork:
 
 ```bash
-git clone https://github.com/wbszhu/IMMerge && cd IMMerge && pip install .
+pip install git+https://github.com/wbszhu/IMMerge.git
 ```
+
+Or clone and install (recommended if you plan to edit the code):
+
+```bash
+git clone https://github.com/wbszhu/IMMerge && cd IMMerge && pip install -e .
+```
+
+> **Note:** `pip install IMMerge` (from PyPI) installs the upstream
+> [`belowlab/IMMerge`](https://github.com/belowlab/IMMerge), not this
+> fork. Use the git URL above if you want the changes in this repo.
 
 `bgzip` from [htslib](https://github.com/samtools/htslib) must be on your
 `PATH` (used to write the merged `.vcf.gz`).
